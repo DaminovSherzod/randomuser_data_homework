@@ -9,3 +9,5 @@ def get_data(filename:str) -> dict:
     Returns:
         dict: JSON data
     """
+    x = json.loads(filename)
+    return x
