@@ -12,4 +12,4 @@ def get_data(filename:str) -> dict:
     f = open(filename).read()
     x = json.loads(f)
     return x
-print(get_data('randomuser_data.json'))
+    
